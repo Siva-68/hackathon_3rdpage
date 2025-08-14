@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #00bcd4;
+}
+
+header p {
+  font-size: 1rem;
+  color: #1b5e20;
+}
+
+/* Highlight Box Styling */
+.highlight-box {
+  background: rgba(40, 40, 40, 0.85);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 12px;
+  border-left: 5px solid #00bcd4;
+  backdrop-filter: blur(4px);
+}
+
+.highlight-box h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+/* Specific Heading Colors */
+.highlight-box:nth-child(2) h2 {
+  color: #03a9f4; /* Guest Speakers */
+}
+.highlight-box:nth-child(3) h2 {
+  color: #ff4081; /* Key Talks */
+}
+.highlight-box:nth-child(4) h2 {
+  color: #9c27b0; /* Expert Panel */
+}
+.highlight-box:nth-child(5) h2 {
+  color: #2196f3; /* Media Coverage */
+}
+.highlight-box:nth-child(6) h2 {
+  color: #4caf50; /* Impact & Feedback */
+}
+
+/* List styling */
+.highlight-box ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Button */
+.r_btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.r_btn:hover {
+  background: #008c9e;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
